@@ -70,6 +70,14 @@ public class MaterialController {
     }
 
     /**
+     * 获取传感器数据
+     */
+    @RequestMapping(value = "/data_get",method = RequestMethod.GET)
+    public Result dataGet(){
+        return materialFeignService.dataGet();
+    }
+
+    /**
      * 获取空气数据
      */
     @RequestMapping(value = "/air_get",method = RequestMethod.GET)

@@ -159,6 +159,32 @@ public class MaterialController {
         return result;
     }
 
+    @RequestMapping(value = "data_get",method = RequestMethod.GET)
+    public Result dataGet(){
+        Result result = new Result();
+        List<RealData> list = null;
+        try{
+            list = materialService.dataGet();
+            for(int i = 0;i<list.size(); i++){
+                list.get(i).setId((long)i);
+            }
+            for(int i = 0;i<list.size(); i++){
+                System.out.print(list.get(i).getId() + "\t");
+            }
+            if(list == null || list.size() == 0){
+                result.setCode(Constant.RES_NOT_EXIST_CODE);
+                result.setMessage(Constant.RES_NOT_EXIST_MESSAGE);
+                return result;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        result.setCode(Constant.SUCCESS_CODE);
+        result.setMessage(Constant.FAIL_MESSAGE);
+        result.setData(list);
+        return result;
+    }
+
     @RequestMapping(value = "/soilGet",method = RequestMethod.GET)
     public Result soilGet(){
         Result result = new Result();

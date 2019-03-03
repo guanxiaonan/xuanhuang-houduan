@@ -42,6 +42,14 @@ public class MaterialFeignServiceHystrix implements MaterialFeignService {
     }
 
     @Override
+    public Result dataGet(){
+        Result result = new Result();
+        result.setCode(Constant.SERVICE_NOT_ENABLE_CODE);
+        result.setMessage("传感器数据:"+Constant.SERVICE_NOT_ENABLE_MESSAGE);
+        return result;
+    }
+
+    @Override
     public Result lightGet(){
         Result result = new Result();
         result.setCode(Constant.SERVICE_NOT_ENABLE_CODE);

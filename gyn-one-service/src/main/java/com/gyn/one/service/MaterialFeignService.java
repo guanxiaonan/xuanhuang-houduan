@@ -23,6 +23,9 @@ public interface MaterialFeignService {
     @RequestMapping(value = "/soilGet",method = RequestMethod.GET)
     public Result soilGet();
 
+    @RequestMapping(value = "data_get",method = RequestMethod.GET)
+    public Result dataGet();
+
     @RequestMapping(value = "/air_get",method = RequestMethod.GET)
     public Result airGet();
 

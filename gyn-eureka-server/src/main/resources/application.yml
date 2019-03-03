@@ -1,6 +1,6 @@
 spring:
   application:
-    name: dmx-eureka-server
+    name: gyn-eureka-server
 server:
   port: 9000
 eureka:

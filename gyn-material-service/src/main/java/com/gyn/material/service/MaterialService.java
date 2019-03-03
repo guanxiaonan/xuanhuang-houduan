@@ -30,6 +30,8 @@ public interface MaterialService {
 
     List<Light> lightGet();
 
+    List<RealData> dataGet();
+
     List<Question> questionGet();
 
     List<Material> findList();

@@ -86,6 +86,11 @@ public class MaterialServiceimpl implements MaterialService {
     }
 
     @Override
+    public List<RealData> dataGet(){
+        return materialMapper.dataGet();
+    }
+
+    @Override
     public List<Light> lightGet(){
         return materialMapper.lightGet();
     }

@@ -80,6 +80,9 @@ public interface MaterialMapper {
     })
     public List<Light> lightGet();
 
+    @Select("Select * from real_time_data order by id desc limit 100")
+    public List<RealData> dataGet();
+
     @Insert("INSERT INTO watering (water_num,teagar_id,water_date,water_remark " +
             ") VALUES (#{waterNum},#{teagarId},#{waterDate},#{waterRemark})")
     public void jiaoshuiPut(Watering watering);

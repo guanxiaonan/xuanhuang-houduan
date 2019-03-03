@@ -5,17 +5,19 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/_matthew/config_server.git
-          username: _matthew
-          password: 789456qwer
+          uri: http://git.mctag.cn/qjh/mirco_service_xuanhuang_config.git
+          searchPaths: /configs
+          username: guanxiaonan
+          password: ghguan174910
+      label: master
 # profiles:
 #   active: native
 server:
-  port: 9001
+  port: 9101
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:9100/eureka/
   instance:
     lease-renewal-interval-in-seconds: 50     #客户端每隔多少秒发送心跳给服务器端,表明客户端还活着
     lease-expiration-duration-in-seconds: 30  #eureka-server在该时间内没有收到服务的心跳,就会判定该服务失效
