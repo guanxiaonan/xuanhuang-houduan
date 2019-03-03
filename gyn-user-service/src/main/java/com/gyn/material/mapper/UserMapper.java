@@ -54,13 +54,10 @@ public interface UserMapper {
     @Select("select post_name FROM user_post WHERE id=#{postId}")
     String getPostNameByPostId(Long postId);
 
-    @Select("select * from user WHERE name=#{0} and pwd=#{1}")
+    @Select("select * from user WHERE username=#{0} and password=#{1}")
     @Results({
-            @Result(column = "post_id", property = "postId"),
-            @Result(column = "create_time", property = "createTime"),
-            @Result(column = "last_login_time", property = "lastLoginTime"),
-            @Result(column = "login_count", property = "loginCount"),
-            @Result(column = "update_time", property = "updateTime")
+            @Result(column = "username", property = "username"),
+            @Result(column = "password", property = "password"),
     })
-    User findUserWithNameAndPwd(String name, String pwd);
+    User findUserWithNameAndPwd(String username, String password);
 }

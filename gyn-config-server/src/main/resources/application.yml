@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: http://git.mctag.cn/qjh/mirco_service_xuanhuang_config.git
-          searchPaths: /configs
+          uri: https://github.com/guanxiaonan/xuanhuang-houduan.git
+          searchPaths: /mirco_service_xuanhuang_config
           username: guanxiaonan
           password: ghguan174910
       label: master

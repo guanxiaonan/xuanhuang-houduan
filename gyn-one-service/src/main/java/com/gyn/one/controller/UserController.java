@@ -76,12 +76,12 @@ public class UserController {
         Result result = userFeignService.login(user);
         LinkedHashMap map = ((LinkedHashMap)result.getData());
         if (map != null) {
-            String name = (String)map.get("name");
-            String pwd = (String)map.get("pwd");
-            session.setAttribute("user",name+"|"+pwd);
-            logger.info("登录成功！name:{},pwd:{}",name,pwd);
+            String username = (String)map.get("username");
+            String password = (String)map.get("password");
+            session.setAttribute("user",username+"|"+password);
+            logger.info("登录成功！name:{},pwd:{}",username,password);
         } else {
-            logger.info("没有该用户！name:{},pwd:{}",user.getName(),user.getPwd());
+            logger.info("没有该用户！name:{},pwd:{}",user.getUsername(),user.getPassword());
         }
         return result;
     }

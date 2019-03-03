@@ -1,7 +1,5 @@
 package com.gyn.material.pojo;
 
-import java.util.Date;
-
 /**
  * @Description: 物料基本信息实体类
  * @Date: Create at 16:11, 2017/12/13
@@ -9,143 +7,40 @@ import java.util.Date;
  */
 public class User {
 
-    private Long id;
+    private int id;
+    private String username;
+    private String password;
 
-    private String name;
-
-    private Long postId;
-
-    private Date birthday;
-
-    private String phone;
-
-    private String detail;
-
-    private Integer gender;
-
-    private Integer flag;
-
-    private String email;
-
-    private Date createTime;
-
-    private Date updateTime;
-
-    private Date lastLoginTime;
-
-    private Integer loginCount;
-
-    private String pwd;
-
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public Long getPostId() {
-        return postId;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPostId(Long postId) {
-        this.postId = postId;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getDetail() {
-        return detail;
-    }
-
-    public void setDetail(String detail) {
-        this.detail = detail;
-    }
-
-    public Integer getGender() {
-        return gender;
-    }
-
-    public void setGender(Integer gender) {
-        this.gender = gender;
-    }
-
-    public Integer getFlag() {
-        return flag;
-    }
-
-    public void setFlag(Integer flag) {
-        this.flag = flag;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
-
-    public Date getLastLoginTime() {
-        return lastLoginTime;
-    }
-
-    public void setLastLoginTime(Date lastLoginTime) {
-        this.lastLoginTime = lastLoginTime;
-    }
-
-    public Integer getLoginCount() {
-        return loginCount;
-    }
-
-    public void setLoginCount(Integer loginCount) {
-        this.loginCount = loginCount;
-    }
-
-    public String getPwd() {
-        return pwd;
-    }
-
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password=" + password +
+                '}';
     }
 }

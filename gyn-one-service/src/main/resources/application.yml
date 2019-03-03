@@ -8,11 +8,11 @@ spring:
     username: root
     password: 123456
 server:
-  port: 9002
+  port: 9102
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://localhost:9100/eureka/
 ##设置 hystrix的超时为5s,防止feign初次调用失败 不知为啥没用
 hystrix:
   command:

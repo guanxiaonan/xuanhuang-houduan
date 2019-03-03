@@ -13,19 +13,19 @@ import java.util.List;
  */
 public interface UserService {
 
-    public void add(User user);
+//    public void add(User user);
+//
+//    public void update(User user);
+//
+//    public void delete(Long id);
+//
+//    public User findById(Long id);
+//
+//    public List<User> findList();
+//
+//    public String findNameById(Long id);
 
-    public void update(User user);
-
-    public void delete(Long id);
-
-    public User findById(Long id);
-
-    public List<User> findList();
-
-    public String findNameById(Long id);
-
-    List<UserInfo> findAll();
+//    List<UserInfo> findAll();
 
     User login(User user);
 }

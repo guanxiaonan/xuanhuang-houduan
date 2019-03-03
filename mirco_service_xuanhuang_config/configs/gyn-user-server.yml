@@ -1,14 +1,14 @@
 spring:
   application:
-    name: gyn-material-service
+    name: gyn-user-service
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     platform: mysql
-    url: jdbc:mysql://localhost:3306/iot_nydp?useSSL=false
+    url: jdbc:mysql://localhost:3306/xuanhuang
     username: root
     password: 123456
 server:
-  port: 9104
+  port: 9105
 eureka:
   client:
     service-url:
