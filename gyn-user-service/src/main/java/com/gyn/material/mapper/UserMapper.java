@@ -38,14 +38,15 @@ public interface UserMapper {
     public User findById(Long id);
 
     @Select("SELECT * FROM user")
-    @Results({
-            @Result(column = "post_id", property = "postId"),
-            @Result(column = "create_time", property = "createTime"),
-            @Result(column = "last_login_time", property = "lastLoginTime"),
-            @Result(column = "login_count", property = "loginCount"),
-            @Result(column = "update_time", property = "updateTime")
-    })
     public List<User> findList();
+//    @Results({
+//            @Result(column = "post_id", property = "postId"),
+//            @Result(column = "create_time", property = "createTime"),
+//            @Result(column = "last_login_time", property = "lastLoginTime"),
+//            @Result(column = "login_count", property = "loginCount"),
+//            @Result(column = "update_time", property = "updateTime")
+//    })
+
 
     @Select("select name FROM user WHERE id=#{id}")
     public String findNameById(Long id);

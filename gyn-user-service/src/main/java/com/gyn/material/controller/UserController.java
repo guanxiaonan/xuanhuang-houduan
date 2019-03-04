@@ -23,7 +23,7 @@ public class UserController {
 
     /**
      * post方式请求：request header Content-Type的值必须是：application/x-www-form-urlencoded
-     * @param user
+     * @param
      * @return
      */
 //    @PostMapping(value = "/user")
@@ -132,25 +132,25 @@ public class UserController {
 //        return result;
 //    }
 //
-//    @GetMapping(value = "/user")
-//    public Result findAll() {
-//        Result result = new Result();
-//        List<UserInfo> list = null;
-//        try {
-//            list = userService.findAll();
-//            if (list == null || list.size() == 0) {
-//                result.setCode(Constant.RES_NOT_EXIST_CODE);
-//                result.setMessage(Constant.RES_NOT_EXIST_MESSAGE);
-//                return result;
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        result.setCode(Constant.SUCCESS_CODE);
-//        result.setMessage(Constant.SUCCESS_MESSAGE);
-//        result.setData(list);
-//        return result;
-//    }
+    @GetMapping(value = "/user")
+    public Result findAll() {
+        Result result = new Result();
+        List<User> list = null;
+        try {
+            list = userService.findAll();
+            if (list == null || list.size() == 0) {
+                result.setCode(Constant.RES_NOT_EXIST_CODE);
+                result.setMessage(Constant.RES_NOT_EXIST_MESSAGE);
+                return result;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        result.setCode(Constant.SUCCESS_CODE);
+        result.setMessage(Constant.SUCCESS_MESSAGE);
+        result.setData(list);
+        return result;
+    }
 //
 //
 //    /**

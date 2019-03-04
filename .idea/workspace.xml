@@ -2,12 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062c154f-4a80-4396-835d-7d1b47286847" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gyn-gateway-service/gyn-gateway-service (1).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xuanhuang_d2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xuanhuang_d2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gyn-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-config-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gyn-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/Constant/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/OneApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/adapter/CorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/adapter/InterceptorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/InventoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/MaterialController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/MonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/mapper/MonitorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Air.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/InventoryRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/InventoryRecordToJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/InventoryToJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Material.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/MaterialToJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/MaterialTypeToJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/MonitorParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/RealData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Soil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/TaskInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/TaskParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/Watering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/InventoryFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/MaterialFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/MonitorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/TaskFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/UserFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/InventoryFeignServiceHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/MaterialFeignServiceHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/MonitorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/TaskFeignServiceHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/UserFeignServiceHystrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/utils/EntityToJsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/utils/MyConventer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-one-service/src/main/resources/bootstrap.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gyn-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/impl/UserServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/impl/UserServiceimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirco_service_xuanhuang_config/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/gyn-user-service.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gyn-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/gyn-config-server/target/" />
@@ -15,6 +76,8 @@
     <ignored path="$PROJECT_DIR$/gyn-inventory-service/target/" />
     <ignored path="$PROJECT_DIR$/gyn-one-service/target/" />
     <ignored path="$PROJECT_DIR$/gyn-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/gyn-gateway-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,95 +87,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-user-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="72" column="63" lean-forward="true" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+            <state relative-caret-position="202">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-config-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-config-server/src/main/java/com/gyn/rest/ConfigServiceApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gyn-gateway-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-config-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gyn-user-server.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/gyn-user-server.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -129,6 +117,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dmx</find>
+      <find>findAll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,12 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gyn-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-inventory-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-material-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-one-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/Constant/Constant.java" />
-        <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/InventoryFeignService.java" />
         <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/TaskFeignService.java" />
         <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/UserFeignService.java" />
         <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/InventoryController.java" />
@@ -174,20 +157,26 @@
         <option value="$PROJECT_DIR$/gyn-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gyn-material-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/gyn-material-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/gyn-one-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gyn-one-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/User.java" />
         <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/pojo/User.java" />
-        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java" />
-        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/impl/UserServiceimpl.java" />
-        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/gyn-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-config-server/src/main/java/com/gyn/rest/ConfigServiceApplication.java" />
         <option value="$PROJECT_DIR$/gyn-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/impl/UserServiceimpl.java" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/controller/UserController.java" />
         <option value="$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/OneApplication.java" />
+        <option value="$PROJECT_DIR$/gyn-one-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-one-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gyn-one-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-gateway-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -199,26 +188,21 @@
         <option name="userSettingsFile" value="E:\system_platform\tx_smarthome\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gyn-material-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gyn-material-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1467" />
-    <option name="y" value="58" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1432" />
+    <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
   </component>
@@ -228,6 +212,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,114 +224,7 @@
             <path>
               <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
               <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-material-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-material-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-material-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-material-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="gyn-gateway-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
@@ -356,185 +235,16 @@
               <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
               <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
               <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="one" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="one" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="one" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-one-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="gyn-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="mirco_service_xuanhuang_config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xuanhuang_d2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xuanhuang_d2" type="462c0819:PsiDirectoryNode" />
-              <item name="mirco_service_xuanhuang_config" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springcloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gyn-gateway-service/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -543,6 +253,7 @@
       <recent name="com.gyn.one.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xuanhaung\project\xuanhuang_d2" />
       <recent name="E:\xuanhaung\project\xuanhuang_d2\gyn-user-service\src\main\resources" />
       <recent name="E:\xuanhaung\project\xuanhuang_d2\mirco_service_xuanhuang_config\configs" />
     </key>
@@ -595,11 +306,11 @@
     </configuration>
     <configuration name="OneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gyn.one.OneApplication" />
-      <module name="gyn-one-service" />
+      <module name="gyn-gateway-service" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gyn.one.*" />
+          <option name="PATTERN" value="com.gyn.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -666,9 +377,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.UserApplication" />
+        <item itemvalue="Application.OneApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.OneApplication" />
         <item itemvalue="Application.MaterialApplication" />
       </list>
     </recent_temporary>
@@ -687,8 +398,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1467" y="58" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="1432" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -697,19 +407,19 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15114613" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.43283582" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.23997134" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.31886023" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.25915876" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.256447" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2829513" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
@@ -722,109 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/MaterialFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/MaterialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/RealData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/system_platform/tx_smarthome/repo/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/java/com/gyn/material/pojo/RealData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-inventory-service/src/main/java/com/gyn/material/QuartzConfigration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/java/com/gyn/material/Constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/java/com/gyn/material/controller/MaterialController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="171" column="61" selection-start-line="171" selection-start-column="61" selection-end-line="171" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/java/com/gyn/material/mapper/MaterialMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-inventory-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/adapter/CorsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/adapter/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#2832#2833#0" expanded="true" />
-            <element signature="e#2871#2872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gyn-inventory-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -835,99 +442,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/MonitorService.java">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/service/MonitorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/service/impl/MonitorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/service/impl/MonitorServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/InventoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/mirco_service_xuanhuang_config.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/base-gateway-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/base-gateway-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/workspace.xml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/.idea/mirco_service_xuanhuang_config.iml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/base-gateway-dev.yml" />
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/base-gateway-pro.yml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,85 +480,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/mapper/MonitorMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/gyn-user-service.yml" />
+    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/java/com/gyn/material/MaterialApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-config-server/src/main/java/com/gyn/rest/ConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/impl/UserServiceimpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
-          <folding>
-            <marker date="1551627132090" expanded="true" signature="2403:3485" ph="..." />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/OneApplication.java">
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/mapper/MonitorMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="466">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="160">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/pojo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/service/UserFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1754">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4075">
-          <caret line="166" column="7" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1">
+          <caret line="134" column="32" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/one/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/gyn-config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="58" column="11" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gyn-eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gyn-eureka-server/src/main/java/com/gyn/zipkin/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="189">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
@@ -1025,83 +615,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-material-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gyn-config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="351">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-config-server/src/main/java/com/gyn/rest/ConfigServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/java/com/gyn/material/UserApplication.java">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/adapter/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mirco_service_xuanhuang_config/configs/gyn-user-server.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="72" column="63" lean-forward="true" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gyn-user-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/adapter/InterceptorConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/Constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-material-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/controller/InventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/controller/MaterialController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/controller/MonitorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/src/main/java/com/gyn/gateway/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-one-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gyn-gateway-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>

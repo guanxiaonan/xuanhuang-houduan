@@ -25,7 +25,7 @@ public interface UserService {
 //
 //    public String findNameById(Long id);
 
-//    List<UserInfo> findAll();
+    List<User> findAll();
 
     User login(User user);
 }

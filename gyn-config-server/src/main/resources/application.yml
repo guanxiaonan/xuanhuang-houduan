@@ -1,20 +1,15 @@
 spring:
   application:
-    name: config-server
+    name: gyn-config-server
   cloud:
     config:
       server:
         git:
-            uri: https://github.com/guanxiaonan/xuanhuang-houduan.git
-            searchPaths: /mirco_service_xuanhuang_config/configs
-            username: guanxiaonan
-            password: ghguan174910
+          uri: https://github.com/guanxiaonan/mirco_service_xuanhaung_config.git
+          search-paths: /configs
+          username: guanxiaonan
+          password: ghguan174910
       label: master
-#        native:
-#         searchLocations: E:\xuanhaung\project\xuanhuang_d2\mirco_service_xuanhuang_config\configs
-
-# profiles:
-#   active: native
 server:
   port: 9101
 eureka:

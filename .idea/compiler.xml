@@ -8,19 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gyn-config-server" />
         <module name="gyn-eureka-server" />
+        <module name="gyn-gateway-service (1)" />
         <module name="gyn-inventory-service" />
         <module name="gyn-material-service" />
-        <module name="gyn-one-service" />
         <module name="gyn-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gyn-config-server" target="1.8" />
       <module name="gyn-eureka-server" target="1.8" />
+      <module name="gyn-gateway-service" target="1.8" />
+      <module name="gyn-gateway-service (1)" target="1.5" />
       <module name="gyn-inventory-service" target="1.8" />
       <module name="gyn-material-service" target="1.8" />
-      <module name="gyn-one-service" target="1.8" />
       <module name="gyn-user-service" target="1.8" />
+      <module name="xuanhuang_d2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

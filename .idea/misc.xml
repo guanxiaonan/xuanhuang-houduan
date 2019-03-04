@@ -7,8 +7,9 @@
         <option value="$PROJECT_DIR$/gyn-inventory-service/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-material-service/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-one-service/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-gateway-service/pom.xml" />
       </list>
     </option>
   </component>

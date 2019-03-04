@@ -86,9 +86,9 @@ public class UserServiceimpl implements UserService {
 //        return userMapper.findNameById(id);
 //    }
 
-//    @Override
-//    public List<UserInfo> findAll() {
-//        List<User> list = userMapper.findList();
+    @Override
+    public List<User> findAll() {
+        List<User> list = userMapper.findList();
 //        List<UserInfo> infoList = new ArrayList<>();
 //        list.forEach((user) -> {
 //            UserInfo info = new UserInfo();
@@ -109,9 +109,9 @@ public class UserServiceimpl implements UserService {
 //            info.setPostName(postName);
 //            infoList.add(info);
 //        });
-//
-//        return infoList;
-//    }
+
+        return list;
+    }
 
     public User login(User user) {
         String username = user.getUsername();
