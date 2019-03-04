@@ -1,15 +1,25 @@
 spring:
   application:
     name: gyn-user-service
-  cloud:
+    cloud:
       config:
         label: master
         profile: dev
         discovery:
           enabled: true
           serviceId: config-server
-server:
-  port: 9105
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    platform: mysql
+#    url: jdbc:mysql://localhost:3306/xuanhuang
+#    username: root
+#    password: 123456
+#server:
+#  port: 9105
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:9100/eureka/
 
 
 

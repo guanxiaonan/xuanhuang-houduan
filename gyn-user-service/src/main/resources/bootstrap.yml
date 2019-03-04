@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gyn-user-service
+  cloud:
+        config:
+          label: master
+          profile: dev
+          discovery:
+            enabled: true
+            serviceId: config-server
