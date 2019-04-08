@@ -4,6 +4,7 @@ import javax.servlet.Filter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.gyn.gateway.Constant.Constant;
 import com.gyn.gateway.pojo.MonitorParam;
 import com.gyn.gateway.service.MonitorService;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
+import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -60,6 +62,8 @@ public class InterceptorConfig extends WebMvcConfigurerAdapter {
     public Filter corsFilter() {
         return new CorsFilter();
     }
+//     解决跨域问题 1-20
+
 
     /**
      * 微服务间接口访问密钥验证
@@ -71,37 +75,37 @@ public class InterceptorConfig extends WebMvcConfigurerAdapter {
         @Override
         public void afterCompletion(HttpServletRequest request, HttpServletResponse arg1, Object arg2, Exception arg3)
                 throws Exception {
-//            String user = (String)request.getSession().getAttribute("user");
-//            if (user != null) {
-//                MonitorParam monitor = new MonitorParam();
-//                monitor.setCallUser(user.split("\\|")[0]);
-//
-//                HandlerMethod hander = (HandlerMethod)arg2;
-//                String callMethod = hander.getMethod().getName();
-//                monitor.setCallMethod(callMethod);
-//
-//                Object bean = hander.getBean();
-//                Class<?> aClass = bean.getClass();
-//                String name = aClass.getName();
-//                //todo 获取服务名
-//                if (name.contains("User")) {
-//                    monitor.setServiceName(Constant.USER_SERVICE);
-//                    addCallRecord(monitor);
-//                } else if(name.contains("Inventory")) {
-//                    monitor.setServiceName(Constant.INVENTORY_SERVICE);
-//                    addCallRecord(monitor);
-//                } else if (name.contains("Task")) {
-//                    monitor.setServiceName(Constant.PRODUCE_TASK_SERVICE);
-//                    addCallRecord(monitor);
-//                } else if (name.contains("Material")) {
-//                    monitor.setServiceName(Constant.MATERIAL_SERVICE);
-//                    addCallRecord(monitor);
-//                } else if (name.contains("Monitor")){
-//                    logger.info("监控控制器");
-//                } else {
-//                    logger.info("未指定监控指标！{}",name);
-//                }
-//            }
+            String user = (String)request.getSession().getAttribute("user");
+            if (user != null) {
+                MonitorParam monitor = new MonitorParam();
+                monitor.setCallUser(user.split("\\|")[0]);
+
+                HandlerMethod hander = (HandlerMethod)arg2;
+                String callMethod = hander.getMethod().getName();
+                monitor.setCallMethod(callMethod);
+
+                Object bean = hander.getBean();
+                Class<?> aClass = bean.getClass();
+                String name = aClass.getName();
+                //todo 获取服务名
+                if (name.contains("User")) {
+                    monitor.setServiceName(Constant.USER_SERVICE);
+                    addCallRecord(monitor);
+                } else if(name.contains("Inventory")) {
+                    monitor.setServiceName(Constant.INVENTORY_SERVICE);
+                    addCallRecord(monitor);
+                } else if (name.contains("Task")) {
+                    monitor.setServiceName(Constant.PRODUCE_TASK_SERVICE);
+                    addCallRecord(monitor);
+                } else if (name.contains("Material")) {
+                    monitor.setServiceName(Constant.MATERIAL_SERVICE);
+                    addCallRecord(monitor);
+                } else if (name.contains("Monitor")){
+                    logger.info("监控控制器");
+                } else {
+                    logger.info("未指定监控指标！{}",name);
+                }
+            }
         }
 
         private void addCallRecord(MonitorParam monitor) {

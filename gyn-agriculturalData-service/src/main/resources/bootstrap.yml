@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gyn-agriculturalData-service
+   # 配置中心
+  cloud:
+    config:
+      uri: http://localhost:9101/
+      label: master
+      profile: dev

@@ -6,3 +6,7 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:9101
+
+management:
+  security:
+    enabled: false

@@ -40,5 +40,6 @@ public class MonitorController {
             result.setMessage(Constant.FAIL_MESSAGE);
         }
         return result;
+//        return monitorService.findList();
     }
 }

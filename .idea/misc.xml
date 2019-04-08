@@ -6,10 +6,11 @@
         <option value="$PROJECT_DIR$/gyn-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-inventory-service/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/gyn-material-service/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gyn-gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-agriculturalData-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gyn-agriculturalManage-service/pom.xml" />
       </list>
     </option>
   </component>

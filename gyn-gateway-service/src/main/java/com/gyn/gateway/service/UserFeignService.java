@@ -11,8 +11,12 @@ import org.springframework.web.bind.annotation.*;
  * @Date: Create at 10:01, 2017/12/15
  * @Author: Matthew
  */
-@FeignClient(value = "gyn-user-service",fallback = UserFeignServiceHystrix.class)
+@FeignClient(value = "gyn-user-service",fallback =
+        UserFeignServiceHystrix.class)
 public interface UserFeignService {
+
+    @RequestMapping(value = "/user/login",method = RequestMethod.POST)
+    Result login(@RequestBody User user);
 
     @RequestMapping(value = "/user/name/{id}",method = RequestMethod.GET)
     public String findNameById(@RequestHeader(value = "id") Long id);
@@ -44,9 +48,6 @@ public interface UserFeignService {
 
     @RequestMapping(value = "/user/total",method = RequestMethod.GET)
     Result getTotal();
-
-    @RequestMapping(value = "/user/login",method = RequestMethod.POST)
-    Result login(@RequestBody User user);
 
     @RequestMapping(value = "/user/logout",method = RequestMethod.GET)
     Result logout();

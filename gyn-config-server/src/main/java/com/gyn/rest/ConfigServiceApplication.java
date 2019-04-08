@@ -17,5 +17,10 @@ public class ConfigServiceApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder(ConfigServiceApplication.class).web(true).run(args);
     }
+    //为了打包springboot项目
+    protected SpringApplicationBuilder configure(
+            SpringApplicationBuilder builder) {
+        return builder.sources(this.getClass());
+    }
 
 }

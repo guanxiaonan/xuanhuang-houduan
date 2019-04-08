@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gyn-agriculturalData-service/gyn-agriculturalData-service.iml" filepath="$PROJECT_DIR$/gyn-agriculturalData-service/gyn-agriculturalData-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gyn-agriculturalManage-service/gyn-agriculturalManage-service.iml" filepath="$PROJECT_DIR$/gyn-agriculturalManage-service/gyn-agriculturalManage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyn-config-server/gyn-config-server.iml" filepath="$PROJECT_DIR$/gyn-config-server/gyn-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyn-eureka-server/gyn-eureka-server.iml" filepath="$PROJECT_DIR$/gyn-eureka-server/gyn-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gyn-gateway-service/gyn-gateway-service (1).iml" filepath="$PROJECT_DIR$/gyn-gateway-service/gyn-gateway-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/gyn-gateway-service/gyn-gateway-service.iml" filepath="$PROJECT_DIR$/gyn-gateway-service/gyn-gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyn-inventory-service/gyn-inventory-service.iml" filepath="$PROJECT_DIR$/gyn-inventory-service/gyn-inventory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyn-material-service/gyn-material-service.iml" filepath="$PROJECT_DIR$/gyn-material-service/gyn-material-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gyn-monitor-service/gyn-monitor-service.iml" filepath="$PROJECT_DIR$/gyn-monitor-service/gyn-monitor-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gyn-process-Dataservice/gyn-process-Dataservice.iml" filepath="$PROJECT_DIR$/gyn-process-Dataservice/gyn-process-Dataservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyn-user-service/gyn-user-service.iml" filepath="$PROJECT_DIR$/gyn-user-service/gyn-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xuanhuang_d2.iml" filepath="$PROJECT_DIR$/.idea/xuanhuang_d2.iml" />
     </modules>

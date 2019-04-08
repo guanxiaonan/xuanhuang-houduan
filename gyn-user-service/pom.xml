@@ -108,7 +108,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.gyn.material.UserApplication</mainClass>
+                    <mainClass>com.gyn.user.UserApplication</mainClass>
                 </configuration>
             </plugin>
 		</plugins>

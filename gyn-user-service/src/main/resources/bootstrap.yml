@@ -5,10 +5,12 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:9101
-#      discovery:
-#        enabled: true
-#        serviceId: gyn-config-server
+      discovery:
+        enabled: true
+        serviceId: gyn-config-server
+
+
+#              uri: http://localhost:9101
 management:
   security:
     enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限

@@ -1,0 +1,13 @@
+com\gyn\agriculturalManage\controller\AgriculturalManageController.class
+com\gyn\agriculturalManage\agriculturalManageApplication.class
+com\gyn\agriculturalManage\service\agriculturalManageServiceImpl\AgriculturalManageServiceImpl.class
+com\gyn\agriculturalManage\pojo\TaskType.class
+com\gyn\agriculturalManage\interceptor\Interceptor.class
+com\gyn\agriculturalManage\utils\IDUtils.class
+com\gyn\agriculturalManage\service\AgriculturalManageService.class
+com\gyn\agriculturalManage\pojo\TaskUnits.class
+com\gyn\agriculturalManage\utils\MyConventer.class
+com\gyn\agriculturalManage\mapper\AgriculturalManageMapper.class
+com\gyn\agriculturalManage\pojo\Task.class
+com\gyn\agriculturalManage\pojo\Result.class
+com\gyn\agriculturalManage\Constant\Constant.class

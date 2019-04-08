@@ -6,21 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gyn-agriculturalData-service" />
+        <module name="gyn-agriculturalManage-service" />
         <module name="gyn-config-server" />
         <module name="gyn-eureka-server" />
-        <module name="gyn-gateway-service (1)" />
+        <module name="gyn-gateway-service" />
         <module name="gyn-inventory-service" />
         <module name="gyn-material-service" />
+        <module name="gyn-monitor-service" />
+        <module name="gyn-process-Dataservice" />
         <module name="gyn-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gyn-agriculturalData-service" target="1.8" />
+      <module name="gyn-agriculturalData-service (1)" target="1.5" />
+      <module name="gyn-agriculturalManage-service" target="1.8" />
       <module name="gyn-config-server" target="1.8" />
       <module name="gyn-eureka-server" target="1.8" />
       <module name="gyn-gateway-service" target="1.8" />
-      <module name="gyn-gateway-service (1)" target="1.5" />
       <module name="gyn-inventory-service" target="1.8" />
       <module name="gyn-material-service" target="1.8" />
+      <module name="gyn-monitor-service" target="1.8" />
+      <module name="gyn-process-Dataservice" target="1.8" />
       <module name="gyn-user-service" target="1.8" />
       <module name="xuanhuang_d2" target="1.8" />
     </bytecodeTargetLevel>

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gyn-agriculturalData-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gyn-agriculturalManage-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gyn-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gyn-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gyn-gateway-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gyn-inventory-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gyn-material-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gyn-one-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gyn-monitor-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gyn-process-Dataservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gyn-user-service" charset="UTF-8" />
   </component>
 </project>
